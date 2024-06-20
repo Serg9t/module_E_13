@@ -1,5 +1,3 @@
 import './style.css'
 
-document.write('Hello, World!!!!');
-
-console.log('hello world')
+// document.write('This is test');

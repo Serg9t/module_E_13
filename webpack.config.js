@@ -19,15 +19,12 @@ module.exports = {
     output: {
         filename: 'main.js'
     },
-    // devtool: 'inline-source-map',
     devServer: {
         historyApiFallback: true,
         static: './dist',
-        // contentBase: './dist',
         open: true,
         hot: hot,
         port: 3001,
-        // client: {logging: 'error'},
     },
     plugins: [
         new MiniCssExtractPlugin(),

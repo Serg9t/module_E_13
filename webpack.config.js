@@ -29,7 +29,6 @@ module.exports = {
     plugins: [
         new MiniCssExtractPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Development',
             template: './src/index.pug',
             filename: './index.html'
         }),
